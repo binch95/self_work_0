@@ -10,7 +10,7 @@ public class Tests {
     @Test
     @DisplayName("배열의 평균값")
     void t1() {
-        assertThat(new Solution().solution(new int[]{0, 1, 2, 4, 3}, new int[][]{{0, 4, 2}, {0, 3, 2}, {0, 2, 2}})).isEqualTo(new int[]{3, 4, -1});
+        assertThat(new Solution().solution(new int[]{0, 1, 2, 3, 4}, new int[][]{{0, 3}, {1, 2}, {1, 4}})).isEqualTo(new int[]{3, 4, 1, 0, 2});
     }
 
 
